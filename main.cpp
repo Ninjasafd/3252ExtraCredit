@@ -35,5 +35,17 @@ int main() {
     gen.clear();
   }
 
+    std::cout << std::endl;
+
+
+  // Tests for a failure to hold an operator
+  try {
+      vctr.push_back("2 + ((3(((5 + 7) * 2)) + 17 * 3) + 1) * 3");
+      std::cout << std::to_string(gen.evaluateValue(vctr[10])) << std::endl;
+  }
+  catch (...){
+      std::cout << "Successfully caught exception" << std::endl;
+  }
+
   return 0;
 }

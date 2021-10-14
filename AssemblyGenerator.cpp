@@ -56,6 +56,10 @@ int AssemblyGenerator::evaluateValue(std::string str) {
     }
   }
 
+  if (charstk.size() != intstk.size() - 1){
+      throw ("There are not enough values compared to operators");
+  }
+
   // Empty the stacks
   while (!charstk.empty()) {
     performOperation();
