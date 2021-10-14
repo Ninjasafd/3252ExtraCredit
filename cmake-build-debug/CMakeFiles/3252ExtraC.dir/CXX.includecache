@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jeffrey/Desktop/CLionProjects/3252ExtraC/AssemblyGenerator.cpp
+AssemblyGenerator.h
+C:/Users/Jeffrey/Desktop/CLionProjects/3252ExtraC/AssemblyGenerator.h
+
+C:/Users/Jeffrey/Desktop/CLionProjects/3252ExtraC/AssemblyGenerator.h
+iostream
+-
+stack
+-
+string
+-
+
